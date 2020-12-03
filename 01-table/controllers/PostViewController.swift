@@ -31,7 +31,7 @@ class PostViewController: UIViewController {
         waitingGroup2.enter()
         getCommentsAmount()
         
-        waitingGroup.notify(queue: .main) {
+        waitingGroup2.notify(queue: .main) {
             self.removeSpinner()
             self.updateDTO()
         }
