@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 struct Post: Codable {
     
     enum CodingKeys: String, CodingKey {

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Comment: Codable {
     
     enum CodingKeys: String, CodingKey {
